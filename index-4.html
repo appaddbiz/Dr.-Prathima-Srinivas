@@ -81,6 +81,17 @@
     <link rel="stylesheet" href="assets/css/main.css" />
 
     <style>
+      @media (min-width: 769px) {
+        .logo-img {
+          width: max-content !important;
+        }
+        .rroffcanvas {
+          width: 350px !important;
+        }
+      }
+    </style>
+
+    <style>
       .dropdown-treatment {
         /* width: 1000px; */
         display: flex;
@@ -240,7 +251,12 @@
     <div class="rroffcanvas-area">
       <div class="rroffcanvas">
         <div class="rroffcanvas__close-btn">
-          <button class="close-btn"><i class="fal fa-times"></i></button>
+          <button
+            class="close-btn"
+            style="top: 10px; border-radius: 50%; right: 10px"
+          >
+            <i class="fal fa-times"></i>
+          </button>
         </div>
         <div class="rroffcanvas__logo">
           <a href="index.html">
